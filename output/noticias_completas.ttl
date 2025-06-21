@@ -1,0 +1,194 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix ns1: <http://example.org/noticias#> .
+
+ns1:article_06c5aa9c1e7aa88357bb7fbf3a693a77 a ns1:NewsArticle ;
+    ns1:mentions <http://dbpedia.org/resource/China>,
+        <http://dbpedia.org/resource/Daniel_Noboa>,
+        <http://dbpedia.org/resource/España>,
+        <http://dbpedia.org/resource/Estado>,
+        <http://dbpedia.org/resource/Italia> ;
+    dc:creator "Agencia EFE" ;
+    dc:date "Sat, 21 Jun 2025 18:58:11 +0000" ;
+    dc:description "A este viaje oficial, Daniel Noboa estará acompañado por una comitiva formada por ministerios, secretarías y entidades del Estado." ;
+    dc:title "Por estas razones Daniel Noboa estará 16 días en España, China e Italia" ;
+    foaf:page <https://www.elcomercio.com/actualidad/politica/por-estas-razones-daniel-noboa-estara-16-dias-en-espana-china-e-italia/> .
+
+ns1:article_07598b045111010072eabfe50f4db383 a ns1:NewsArticle ;
+    ns1:mentions <http://dbpedia.org/resource/Brasil>,
+        <http://dbpedia.org/resource/Santa_Catarina> ;
+    dc:creator "Gabriela Quiroz" ;
+    dc:date "Sat, 21 Jun 2025 16:11:26 +0000" ;
+    dc:description "La información preliminar indica que 22 personas viajaban a bordo del aparato. Los equipos de rescate buscan a los desaparecidos." ;
+    dc:title "Accidente de globo aerostático en Santa Catarina, Brasil deja 8 muertos" ;
+    foaf:page <https://www.elcomercio.com/actualidad/mundo/accidente-de-globo-aerostatico-en-santa-catarina-brasil-deja-8-muertos/> .
+
+ns1:article_09c14cdc6758be8e8f34d9c31d9243ed a ns1:NewsArticle ;
+    ns1:mentions <http://dbpedia.org/resource/Ecuador>,
+        <http://dbpedia.org/resource/Gestión_de_Riesgos>,
+        <http://dbpedia.org/resource/Guayas>,
+        <http://dbpedia.org/resource/Naranjal> ;
+    dc:creator "Gabriela Quiroz" ;
+    dc:date "Sat, 21 Jun 2025 20:06:00 +0000" ;
+    dc:description "El sismo en Naranjal, Guayas se sintió en 11 provincias del país, entre leve y moderado, según Gestión de Riesgos." ;
+    dc:title "El sismo de Naranjal, Guayas de este 21 de junio se sintió en 87 cantones del Ecuador" ;
+    foaf:page <https://www.elcomercio.com/actualidad/ecuador/un-sismo-se-sintio-en-naranjal-guayas-este-sabado-21-de-junio/> .
+
+ns1:article_1285b42e84b4ffd92776d39c733e3095 a ns1:NewsArticle ;
+    ns1:mentions <http://dbpedia.org/resource/Corpus_Christi>,
+        <http://dbpedia.org/resource/Quito> ;
+    dc:creator "Giovanna Alvear" ;
+    dc:date "Sat, 21 Jun 2025 14:20:59 +0000" ;
+    dc:description "La AMT ejecuta al menos tres operativos de tránsito en las zonas con las vías cerradas por la marcha Orgullo Quito y el Corpus Christi." ;
+    dc:title "Al menos 30 vías cerradas en Quito este sábado 21 de junio" ;
+    foaf:page <https://www.elcomercio.com/actualidad/quito/al-menos-30-vias-cerradas-quito-sabado-21-de-junio/> .
+
+ns1:article_4ca4582c62cb1a6a8c8a1bf68cdeb4c1 a ns1:NewsArticle ;
+    ns1:mentions <http://dbpedia.org/resource/Gonzalo_Plata>,
+        <http://dbpedia.org/resource/Moisés_Caicedo> ;
+    dc:creator "Alexis Sinchire" ;
+    dc:date "Sat, 21 Jun 2025 17:43:38 +0000" ;
+    dc:description "Gonzalo Plata y Moisés Caicedo se enfrentaron en el Mundial de Clubes 2025." ;
+    dc:title "Gonzalo Plata elogió al ‘pulpo’ Moisés Caicedo" ;
+    foaf:page <https://www.elcomercio.com/deportes/futbol/gonzalo-plata-moises-caicedo-mundial/> .
+
+ns1:article_595700e8ba8806172ef7890a6e317e42 a ns1:NewsArticle ;
+    ns1:mentions <http://dbpedia.org/resource/Diana_Salazar>,
+        <http://dbpedia.org/resource/Ecuador> ;
+    dc:creator "Lolo Echeverría" ;
+    dc:date "Sat, 21 Jun 2025 05:05:00 +0000" ;
+    dc:description "La exfiscal Diana Salazar advierte que el crimen organizado ha infiltrado profundamente a Ecuador, corrompiendo instituciones y amenazando la democracia." ;
+    dc:title "La lucha contra el crimen no está funcionando" ;
+    foaf:page <https://www.elcomercio.com/opinion/lucha-contra-crimen-no-esta-funcionando-lolo-echeverria-columnista/> .
+
+ns1:article_625aa2c4b699fe2dec381361d7b882e1 a ns1:NewsArticle ;
+    ns1:mentions <http://dbpedia.org/resource/Barcelona_SC>,
+        <http://dbpedia.org/resource/Hinchas>,
+        <http://dbpedia.org/resource/Liga_Pro>,
+        <http://dbpedia.org/resource/Liga_de_Quito> ;
+    dc:creator "Carlos Augusto Rojas" ;
+    dc:date "Sat, 21 Jun 2025 05:15:00 +0000" ;
+    dc:description "La polémica por el cobro adicional en la transmisión del partido entre Liga de Quito y Barcelona SC desató una ola de críticas contra la Liga Pro" ;
+    dc:title "Hinchas del fútbol ecuatoriano exigen respeto y transparencia a la Liga Pro" ;
+    foaf:page <https://www.elcomercio.com/opinion/editorial/ligapro-hinchas-futbol-ecuatoriano-zapping/> .
+
+ns1:article_6a07acdd532a4a165518b48c329b96f3 a ns1:NewsArticle ;
+    ns1:mentions <http://dbpedia.org/resource/Charapotó-Correagua>,
+        <http://dbpedia.org/resource/Coactur>,
+        <http://dbpedia.org/resource/Manabí> ;
+    dc:creator "Gabriela Quiroz" ;
+    dc:date "Sat, 21 Jun 2025 17:48:50 +0000" ;
+    dc:description "Un bus de Coactur se volcó en una curva de la vía Charapotó-Correagua. La CTE investiga las causas del siniestro." ;
+    dc:title "Siniestro de bus en Manabí deja un muerto y 11 heridos" ;
+    foaf:page <https://www.elcomercio.com/actualidad/ecuador/siniestro-de-bus-en-manabi-deja-un-muerto-11-heridos/> .
+
+ns1:article_7e44288ae1406261fd1a3b8144c19aac a ns1:NewsArticle ;
+    ns1:mentions <http://dbpedia.org/resource/Daniel_Noboa>,
+        <http://dbpedia.org/resource/Fede> ;
+    dc:creator "Gabriela Quiroz" ;
+    dc:date "Sat, 21 Jun 2025 21:08:03 +0000" ;
+    dc:description "El Presidente ordenó que se aprehenda a todo el personal del CPL Guayas N.°1 involucrado en el escape de alias 'Fede'." ;
+    dc:title "Daniel Noboa califica de ‘traición’ la fuga de alias ‘Fede’ de la Penitenciaría del Litoral" ;
+    foaf:page <https://www.elcomercio.com/actualidad/seguridad/daniel-noboa-califica-de-traicion-la-fuga-de-alias-fede-de-la-carcel-del-guyas/> .
+
+ns1:article_86dcfd495bb37ce11f408129bd749f76 a ns1:NewsArticle ;
+    ns1:mentions <http://dbpedia.org/resource/Jorge_Yunda>,
+        <http://dbpedia.org/resource/María_Belén_Domínguez> ;
+    dc:creator "Giovanna Alvear" ;
+    dc:date "Sat, 21 Jun 2025 15:38:08 +0000" ;
+    dc:description "María Belén Domínguez incurrió en tráfico de influencias al dar instrucciones a dos ayudantes para beneficiar a Jorge Yunda" ;
+    dc:title "Ratifican sentencia de prisión contra exjueza que favoreció a Jorge Yunda" ;
+    foaf:page <https://www.elcomercio.com/actualidad/seguridad/ratifican-sentencia-prision-exjueza-favorecio-jorge-yunda/> .
+
+ns1:article_a1487d30e6ffccda4eabf18faaa2da9e a ns1:NewsArticle ;
+    ns1:mentions <http://dbpedia.org/resource/Quito> ;
+    dc:creator "Giovanna Alvear" ;
+    dc:date "Sat, 21 Jun 2025 13:31:53 +0000" ;
+    dc:description "La poca nubosidad no solo permite el ingreso de rayos solares sino que ayuda a que más viento circule y haya frío en la tarde" ;
+    dc:title "Radiación solar extremadamente alta en Quito este sábado 21 de junio" ;
+    foaf:page <https://www.elcomercio.com/actualidad/quito/radiacion-solar-extremadamente-alta-quito-sabado-21-de-junio/> .
+
+ns1:article_af2e2ad3f30b717db9c5cdeaf6daff3f a ns1:NewsArticle ;
+    ns1:mentions <http://dbpedia.org/resource/Ecuador>,
+        <http://dbpedia.org/resource/Ministerio_de_Producción>,
+        <http://dbpedia.org/resource/Temu> ;
+    dc:creator "Giovanna Alvear" ;
+    dc:date "Sat, 21 Jun 2025 16:52:10 +0000" ;
+    dc:description "La reunión con Temu busca fortalecer las inversiones y el comercio digital en Ecuador con la llegada de la plataforma" ;
+    dc:title "¿Temu en Ecuador? Ministerio de Producción se reúne con representantes de la plataforma" ;
+    foaf:page <https://www.elcomercio.com/actualidad/negocios/temu-en-ecuador-ministerio-produccion-reune-representantes-plataforma/> .
+
+ns1:article_b8907ae27c14bd5e2b0e45c42c90904e a ns1:NewsArticle ;
+    ns1:mentions <http://dbpedia.org/resource/Banfield>,
+        <http://dbpedia.org/resource/Damián_Díaz>,
+        <http://dbpedia.org/resource/Ecuador> ;
+    dc:creator "Alexis Sinchire" ;
+    dc:date "Sat, 21 Jun 2025 16:38:09 +0000" ;
+    dc:description "Una fractura en uno de sus tobillos marcó el paso de Damián Díaz por Banfield." ;
+    dc:title "Damián Díaz rescindió contrato con Banfield, ¿vuelve a Ecuador?" ;
+    foaf:page <https://www.elcomercio.com/deportes/futbol/damian-kitu-diaz-banfiel-contrato/> .
+
+ns1:article_bcaab91684efb63ec006866a3ae9ca66 a ns1:NewsArticle ;
+    dc:creator "Alexis Sinchire" ;
+    dc:date "Sat, 21 Jun 2025 14:45:34 +0000" ;
+    dc:description "El Mundial de Clubes tiene programados cuatro partidos para este sábado." ;
+    dc:title "Mundial de Clubes, ¿quién juega este sábado 21 de junio?" ;
+    foaf:page <https://www.elcomercio.com/deportes/futbol/partidos-mundial-clubes-sabado21-junio/> .
+
+ns1:article_c9350a7758b44d39abea74e58ae3d8fd a ns1:NewsArticle ;
+    ns1:mentions <http://dbpedia.org/resource/Los_Bomberos>,
+        <http://dbpedia.org/resource/Pomasqui>,
+        <http://dbpedia.org/resource/Quito> ;
+    dc:creator "Gabriela Quiroz" ;
+    dc:date "Sat, 21 Jun 2025 19:40:54 +0000" ;
+    dc:description "Los Bomberos reportaron un herido por el siniestro ocurrido en el sector de Pomasqui, en el norte de Quito." ;
+    dc:title "Cinco siniestros de tránsito se registran este 21 de junio en Quito" ;
+    foaf:page <https://www.elcomercio.com/actualidad/quito/cinco-siniestros-de-transito-se-registran-este-21-de-junio-en-quito/> .
+
+ns1:article_d17e49b63609dd0a02f5acdfe473e63d a ns1:NewsArticle ;
+    ns1:mentions <http://dbpedia.org/resource/La_Empresa>,
+        <http://dbpedia.org/resource/Trolebús>,
+        <http://dbpedia.org/resource/Verano_de_las_Artes.>,
+        <http://dbpedia.org/resource/parque_Bicentenario> ;
+    dc:creator "Gladys Rivadeneira" ;
+    dc:date "Sat, 21 Jun 2025 21:36:17 +0000" ;
+    dc:description "La Empresa de Pasajeros tomó la decisión de ampliar el horario de Trolebús por  el festival que se realiza en el parque Bicentenario." ;
+    dc:title "Trolebús extiende su horario la noche de este sábado 21 de junio por el Verano de las Artes" ;
+    foaf:page <https://www.elcomercio.com/actualidad/quito/trolebus-extiende-horario-noche-sabado-21-junio-verano-artes/> .
+
+ns1:article_d704e3dd47033a48ee9c6bc438c4c76a a ns1:NewsArticle ;
+    ns1:mentions <http://dbpedia.org/resource/Acnur>,
+        <http://dbpedia.org/resource/Ecuador> ;
+    dc:creator "Agencia EFE" ;
+    dc:date "Sat, 21 Jun 2025 16:40:20 +0000" ;
+    dc:description "13% de los hogares manifiestan que al menos un miembro de esa familia se ha tenido que trasladar o desplazar por violencia en Ecuador." ;
+    dc:title "Acnur: Violencia en Ecuador deja 315 mil desplazados internos en dos años" ;
+    foaf:page <https://www.elcomercio.com/actualidad/ecuador/acnur-violencia-en-ecuador-deja-315-mil-desplazados-internos-en-dos-anos/> .
+
+ns1:article_e4d5c8762ddb2a2d1e67037e3be369d1 a ns1:NewsArticle ;
+    ns1:mentions <http://dbpedia.org/resource/Caen>,
+        <http://dbpedia.org/resource/Guardia_Revolucionaría>,
+        <http://dbpedia.org/resource/Israel> ;
+    dc:creator "Agencia EFE" ;
+    dc:date "Sat, 21 Jun 2025 11:00:00 +0000" ;
+    dc:description "La Guardia Revolucionaria iraní ha sufrido fuertes bajas en la ofensiva militar que lanzó Israel, desde el 13 de junio." ;
+    dc:title "Caen 5 miembros de la Guardia Revolucionaría iraní; civiles muertos se elevaron a 430" ;
+    foaf:page <https://www.elcomercio.com/actualidad/mundo/guardia-revolucionaria-irani/> .
+
+ns1:article_e6091f72a1c75bdf770ce3e1ad41f9c0 a ns1:NewsArticle ;
+    dc:creator "Jenny Martínez" ;
+    dc:date "Sat, 21 Jun 2025 05:05:00 +0000" ;
+    dc:description "Descubre cómo preparar un mousse de maracuyá cremoso, aireado y delicioso, ideal para sorprender en cualquier ocasión especial. ¡Comparte esta receta con tus amigos!" ;
+    dc:title "Mousse de maracuyá: frescura tropical en una receta sencilla" ;
+    foaf:page <https://www.elcomercio.com/sabores/mousse-maracuya-frescura-tropical-receta-sencilla/> .
+
+ns1:article_f26eaef274ffe5ae726039bf76cfa545 a ns1:NewsArticle ;
+    ns1:mentions <http://dbpedia.org/resource/Eber_Caicedo>,
+        <http://dbpedia.org/resource/Libertad>,
+        <http://dbpedia.org/resource/Liga_Pro> ;
+    dc:creator "Alexis Sinchire" ;
+    dc:date "Sat, 21 Jun 2025 15:39:55 +0000" ;
+    dc:description "El guayaquileño Eber Caicedo es el goleador de Libertad con siete goles." ;
+    dc:title "Liga Pro: Eber Caicedo hizo tres goles en 25 minutos" ;
+    foaf:page <https://www.elcomercio.com/deportes/futbol/eber-caicedo-libertad-tres-goles/> .
+
