@@ -1,8 +1,3 @@
-Claro, aquí tienes el contenido en formato Markdown listo para tu `README.md`:
-
----
-
-````markdown
 # 📰 Backend - Agregador y Clasificador de Noticias
 
 Este backend implementa una **API de noticias inteligente** que:
