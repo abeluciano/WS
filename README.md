@@ -26,8 +26,8 @@ Este backend implementa una **API de noticias inteligente** que:
 ### 1. Clonar el repositorio
 
 ```bash
-git clone https://github.com/tu-usuario/backend-noticias.git
-cd backend-noticias
+git clone https://github.com/abeluciano/WS.git
+cd WS
 ````
 
 ### 2. Crear y activar un entorno virtual
