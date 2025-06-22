@@ -1,11 +1,17 @@
 from SPARQLWrapper import SPARQLWrapper, JSON
 
-# Endpoint de DBpedia
+# URL del endpoint público de DBpedia para consultas SPARQL
 DBPEDIA_ENDPOINT = "https://dbpedia.org/sparql"
 
 def build_sparql_query(entity_label: str) -> str:
     """
-    Devuelve una consulta SPARQL para una entidad con label en español.
+    Construye una consulta SPARQL para buscar información sobre una entidad específica.
+
+    Args:
+        entity_label (str): Nombre de la entidad en español.
+
+    Returns:
+        str: Consulta SPARQL que busca información básica (fecha de nacimiento, ocupación y descripción).
     """
     return f"""
     SELECT ?person ?birthDate ?occupation ?description WHERE {{
@@ -20,7 +26,14 @@ def build_sparql_query(entity_label: str) -> str:
 
 def query_dbpedia(sparql_query: str) -> dict:
     """
-    Ejecuta una consulta SPARQL y devuelve los datos como dict.
+    Ejecuta una consulta SPARQL en DBpedia y devuelve los resultados estructurados.
+
+    Args:
+        sparql_query (str): Consulta SPARQL válida.
+
+    Returns:
+        dict: Diccionario con URI, fecha de nacimiento, ocupación y descripción. 
+              Si no hay resultados, devuelve un diccionario vacío.
     """
     sparql = SPARQLWrapper(DBPEDIA_ENDPOINT)
     sparql.setQuery(sparql_query)
@@ -30,9 +43,9 @@ def query_dbpedia(sparql_query: str) -> dict:
         results = sparql.query().convert()
         bindings = results["results"]["bindings"]
         if not bindings:
-            return {}
-        
-        result = bindings[0]
+            return {}  # No se encontró información
+
+        result = bindings[0]  # Solo usamos el primer resultado
         return {
             "uri": result["person"]["value"],
             "birthDate": result.get("birthDate", {}).get("value"),
@@ -45,12 +58,21 @@ def query_dbpedia(sparql_query: str) -> dict:
 
 def enrich_entities(entities: list) -> dict:
     """
-    Para una lista de entidades [(nombre, tipo)], devuelve un dict enriquecido por nombre.
+    Enriquecer una lista de entidades con información externa desde DBpedia.
+
+    Args:
+        entities (list): Lista de tuplas (nombre, tipo), típicamente extraídas de artículos.
+
+    Returns:
+        dict: Diccionario con el nombre de la entidad como clave y la información enriquecida como valor.
     """
     enriched = {}
+
+    # Iteramos sobre cada entidad para construir la consulta y obtener los datos
     for entity_name, _ in entities:
         query = build_sparql_query(entity_name)
         data = query_dbpedia(query)
         if data:
-            enriched[entity_name] = data
+            enriched[entity_name] = data  # Solo agregamos si hay resultados
+
     return enriched
